@@ -29,12 +29,12 @@ const Hero = () => (
         title={
           <>
             {'A fresh new approach for\n'}
-            <span className="text-primary-500">Advertisements in Web 3</span>
+            <span className="text-primary-logo-blue">Advertisements in Web 3</span>
           </>
         }
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
         button={
-          <Link href="https://creativedesignsguru.com/category/nextjs/">
+          <Link href="/assets/texts/Litepaper-Adnonymous.pdf">
             <a>
               <Button xl>Adnonymous Whitepaper</Button>
             </a>
