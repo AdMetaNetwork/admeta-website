@@ -34,9 +34,9 @@ const Hero = () => (
         }
         description="The easiest way to manage advertisements for everyone."
         button={
-          <Link href="/assets/doc/Litepaper-Adnonymous.pdf">
+          <Link href="/assets/doc/LitepaperAdMeta.pdf">
             <a>
-              <Button xl>Adnonymous Whitepaper</Button>
+              <Button xl>AdMeta Whitepaper</Button>
             </a>
           </Link>
         }
