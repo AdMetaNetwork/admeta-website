@@ -29,7 +29,7 @@ const Hero = () => (
         title={
           <>
             {'A fresh new approach for\n'}
-            <span className="text-logo-blue">Advertisements in Web 3</span>
+            <span className="text-logo-blue"> Metaverse </span>
           </>
         }
         description="The easiest way to manage advertisements for everyone."
