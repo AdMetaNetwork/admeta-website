@@ -18,8 +18,8 @@ module.exports = {
     extend: {
       colors: {
         logo: {
-          red: '#E67869',
-          blue: '#367DA2',
+          cyan: '#0CCCCC',
+          blue: '#32587E',
         },
         primary: {
           // 'logo-red': '#E67869',

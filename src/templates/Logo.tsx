@@ -29,8 +29,7 @@ const Logo = (props: ILogoProps) => {
       </svg> */}
 
       {/* {AppConfig.site_name} */}
-      <h1 className="text-logo-red">Ad</h1>
-      <h1 className="text-logo-blue">Meta</h1>
+      <h1 className="text-logo-blue">AdMeta</h1>
     </span>
   );
 };

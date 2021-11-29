@@ -28,11 +28,11 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'A fresh new approach for\n'}
-            <span className="text-logo-blue"> Metaverse </span>
+            <span className="text-logo-blue">A privacy-preserving Ad Platform for</span>
+            <span className="text-logo-cyan"> Metaverse </span>
           </>
         }
-        description="The easiest way to manage advertisements for everyone."
+        description="Customized ads service without revealing users privacy"
         button={
           <Link href="/assets/doc/Litepaper.pdf">
             <a>
