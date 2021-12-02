@@ -1,6 +1,21 @@
+import Image from 'next/image';
+
 type ILogoProps = {
   xl?: boolean;
 };
+
+function logoImage() {
+  return (
+    <>
+        <Image
+          src="/logo.svg"
+          alt="sample-image"
+          width={38}
+          height={38}
+        />
+    </>
+  )
+}
 
 const Logo = (props: ILogoProps) => {
   // const size = props.xl ? '44' : '32';
@@ -29,6 +44,8 @@ const Logo = (props: ILogoProps) => {
       </svg> */}
 
       {/* {AppConfig.site_name} */}
+      {logoImage()}
+
       <h1 className="text-logo-blue">AdMeta</h1>
     </span>
   );
