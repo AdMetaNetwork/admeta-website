@@ -1,21 +1,8 @@
-import Image from 'next/image';
+// import Image from 'next/image';
 
 type ILogoProps = {
   xl?: boolean;
 };
-
-function logoImage() {
-  return (
-    <>
-        <Image
-          src="/logo.svg"
-          alt="sample-image"
-          width={38}
-          height={38}
-        />
-    </>
-  )
-}
 
 const Logo = (props: ILogoProps) => {
   // const size = props.xl ? '44' : '32';
@@ -44,7 +31,19 @@ const Logo = (props: ILogoProps) => {
       </svg> */}
 
       {/* {AppConfig.site_name} */}
-      {logoImage()}
+      {
+        <svg width="31.6" height="22.9" viewBox="0 0 316 229" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="81.7206" y="30.6232" width="55" height="159.176" transform="rotate(25 81.7206 30.6232)" fill="#0CCCCC"/>
+          <ellipse cx="39.1206" cy="187.05" rx="27.5" ry="32.9122" transform="rotate(25 39.1206 187.05)" fill="#0CCCCC"/>
+          <ellipse cx="106.391" cy="42.7875" rx="27.5" ry="32.9122" transform="rotate(25 106.391 42.7875)" fill="#0CCCCC"/>
+          <rect x="86.6564" y="53.5303" width="55" height="159.176" transform="rotate(-25 86.6564 53.5303)" fill="#32587E"/>
+          <ellipse cx="179.103" cy="186.713" rx="27.5" ry="32.9122" transform="rotate(-25 179.103 186.713)" fill="#32587E"/>
+          <ellipse cx="111.833" cy="42.4506" rx="27.5" ry="32.9122" transform="rotate(-25 111.833 42.4506)" fill="#32587E"/>
+          <rect x="184.656" y="52.5303" width="55" height="159.176" transform="rotate(-25 184.656 52.5303)" fill="#0CCCCC"/>
+          <ellipse cx="277.103" cy="185.713" rx="27.5" ry="32.9122" transform="rotate(-25 277.103 185.713)" fill="#0CCCCC"/>
+          <ellipse cx="209.833" cy="41.4506" rx="27.5" ry="32.9122" transform="rotate(-25 209.833 41.4506)" fill="#0CCCCC"/>
+        </svg>
+      }
 
       <h1 className="text-logo-blue">AdMeta</h1>
     </span>
