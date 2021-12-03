@@ -1,3 +1,5 @@
+import React from 'react';
+import { VerticalFeatureRow } from '../feature/VerticalFeatureRow';
 import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
@@ -25,6 +27,32 @@ const VerticalFeatures = () => (
       image="/assets/images/feature3.svg"
       imageAlt="Third feature alt text"
     /> */}
+    <VerticalFeatureRow
+      title="Privacy Protected"
+      description="User data are fully protected with TEE, and controlled by users themselves"
+      image="/assets/images/privacy-and-policy.svg"
+      imageAlt="Privacy Protected"
+    />
+    <VerticalFeatureRow
+      title="Precisely Targeted"
+      description="Zero-knowledge proof guarantees a precise target group match"
+      image="/assets/images/bullseye.svg"
+      imageAlt="Precisely Targeted"
+      reverse
+    />
+    <VerticalFeatureRow
+      title="User Oriented"
+      description="Users can turn off all ads at any time. It's totally free choice"
+      image="/assets/images/happy.svg"
+      imageAlt="User Oriented"
+    />
+    <VerticalFeatureRow
+      title="Decentralized Governed"
+      description="Advertisers are evaluated democratically, to improve the ads quality"
+      image="/assets/images/team-meeting-illustration.svg"
+      imageAlt="Decentralized Governed"
+      reverse
+    />
   </Section>
 );
 
