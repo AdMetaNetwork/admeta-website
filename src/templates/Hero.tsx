@@ -1,7 +1,7 @@
-import Link from 'next/link';
+//import Link from 'next/link';
 
 import { Background } from '../background/Background';
-import { Button } from '../button/Button';
+//import { Button } from '../button/Button';
 import { HeroOneButton } from '../hero/HeroOneButton';
 import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
@@ -33,13 +33,13 @@ const Hero = () => (
           </>
         }
         description="Customized ads service without revealing users privacy"
-        button={
-          <Link href="/assets/doc/Litepaper.pdf">
-            <a>
-              <Button xl>AdMeta Whitepaper</Button>
-            </a>
-          </Link>
-        }
+        //button={
+        //  <Link href="/assets/doc/Litepaper.pdf">
+        //    <a>
+        //      <Button xl>AdMeta Whitepaper</Button>
+        //    </a>
+        //  </Link>
+        //}
       />
     </Section>
   </Background>
