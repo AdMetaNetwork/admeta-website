@@ -1,4 +1,5 @@
 import React from 'react';
+import { Background } from '../background/Background';
 import { VerticalFeatureRow } from '../feature/VerticalFeatureRow';
 import { Section } from '../layout/Section';
 
@@ -7,6 +8,7 @@ const VerticalFeatures = () => (
   //   title="Your title here"
   //   description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada nisi tellus, non imperdiet nisi tempor at."
   // >
+  //<Background color="bg-gray-100">
   <Section title="" description="">
     {/* <VerticalFeatureRow
       title="Your title here"
@@ -54,6 +56,7 @@ const VerticalFeatures = () => (
       reverse
     />
   </Section>
+  //</Background>
 );
 
 export { VerticalFeatures };

@@ -5,7 +5,7 @@ type ILogoProps = {
 };
 
 const Logo = (props: ILogoProps) => {
-  // const size = props.xl ? '44' : '32';
+  const size = props.xl ? '44' : '32';
   const fontStyle = props.xl
     ? 'font-semibold text-3xl'
     : 'font-semibold text-xl';
@@ -30,9 +30,8 @@ const Logo = (props: ILogoProps) => {
         <path d="M4 20h14" />
       </svg> */}
 
-      {/* {AppConfig.site_name} */}
       {
-        <svg width="31.6" height="22.9" viewBox="0 0 316 229" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width={size} height={size} viewBox="0 0 316 229" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect x="81.7206" y="30.6232" width="55" height="159.176" transform="rotate(25 81.7206 30.6232)" fill="#0CCCCC"/>
           <ellipse cx="39.1206" cy="187.05" rx="27.5" ry="32.9122" transform="rotate(25 39.1206 187.05)" fill="#0CCCCC"/>
           <ellipse cx="106.391" cy="42.7875" rx="27.5" ry="32.9122" transform="rotate(25 106.391 42.7875)" fill="#0CCCCC"/>
@@ -44,8 +43,9 @@ const Logo = (props: ILogoProps) => {
           <ellipse cx="209.833" cy="41.4506" rx="27.5" ry="32.9122" transform="rotate(-25 209.833 41.4506)" fill="#0CCCCC"/>
         </svg>
       }
+      {/* {AppConfig.site_name} */}
 
-      <h1 className="text-logo-blue">AdMeta</h1>
+      <h1 className="text-logo-blue"> AdMeta</h1>
     </span>
   );
 };
