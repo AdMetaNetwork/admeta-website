@@ -1,5 +1,5 @@
 import React from 'react';
-import { Background } from '../background/Background';
+//import { Background } from '../background/Background';
 import { VerticalFeatureRow } from '../feature/VerticalFeatureRow';
 import { Section } from '../layout/Section';
 
