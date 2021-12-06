@@ -30,29 +30,29 @@ const VerticalFeatures = () => (
       imageAlt="Third feature alt text"
     /> */}
     <VerticalFeatureRow
-      title="Privacy Protected"
+      title="Privacy Preserving"
       description="User data are fully protected with TEE, and controlled by users themselves"
       image="/assets/images/privacy-and-policy.svg"
-      imageAlt="Privacy Protected"
+      imageAlt="Privacy Preserving"
     />
     <VerticalFeatureRow
-      title="Precisely Targeted"
+      title="Microtargeting"
       description="Zero-knowledge proof guarantees a precise target group match"
       image="/assets/images/bullseye.svg"
-      imageAlt="Precisely Targeted"
+      imageAlt="Microtargeting"
       reverse
     />
     <VerticalFeatureRow
-      title="User Oriented"
+      title="User-centered"
       description="Users can turn off all ads at any time. It's totally free choice"
       image="/assets/images/happy.svg"
-      imageAlt="User Oriented"
+      imageAlt="User-centered"
     />
     <VerticalFeatureRow
-      title="Decentralized Governed"
+      title="Decentralized Governance"
       description="Advertisers are evaluated democratically, to improve the ads quality"
       image="/assets/images/team-meeting-illustration.svg"
-      imageAlt="Decentralized Governed"
+      imageAlt="Decentralized Governance"
       reverse
     />
   </Section>

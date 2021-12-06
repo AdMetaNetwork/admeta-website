@@ -45,7 +45,7 @@ const Logo = (props: ILogoProps) => {
       }
       {/* {AppConfig.site_name} */}
 
-      <h1 className="text-logo-blue"> AdMeta</h1>
+      <h1 className="text-logo-blue">AdMeta</h1>
     </span>
   );
 };
