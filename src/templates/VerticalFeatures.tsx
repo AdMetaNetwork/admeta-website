@@ -36,10 +36,10 @@ const VerticalFeatures = () => (
       imageAlt="Privacy Preserving"
     />
     <VerticalFeatureRow
-      title="Microtargeting"
+      title="Precise Targeting"
       description="Zero-knowledge proof guarantees a precise target group match"
       image="/assets/images/bullseye.svg"
-      imageAlt="Microtargeting"
+      imageAlt="Precise Targeting"
       reverse
     />
     <VerticalFeatureRow
