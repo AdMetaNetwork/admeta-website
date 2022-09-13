@@ -10,16 +10,16 @@
 	.st7{fill:#181E22;}
 	.st8{fill:#F1C4B2;}
 	.st9{fill:#020102;}
-	.st10{fill:none;stroke:#000000;stroke-width:0.4479;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st10{fill:none;stroke:#000000;strokeWidth:0.4479;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st11{fill:#2A94F4;}
-	.st12{fill:none;stroke:#D9D9D9;stroke-width:0.4788;stroke-miterlimit:10;}
+	.st12{fill:none;stroke:#D9D9D9;strokeWidth:0.4788;stroke-miterlimit:10;}
 	.st13{fill:#FDE6CF;}
 	.st14{fill:#183F71;}
 	.st15{fill:#07488C;}
 	.st16{fill:#EEC2B0;}
 	.st17{fill:#F19180;}
 	.st18{fill:#1E3058;}
-	.st19{fill:#ffbe55;stroke:#FFFFFF;stroke-width:1.062;stroke-miterlimit:10;}
+	.st19{fill:#ffbe55;stroke:#FFFFFF;strokeWidth:1.062;stroke-miterlimit:10;}
 	.st20{fill:#F9B03D;}
 	.st21{fill:#FBC36B;}
 	.st22{fill:#EFC5B4;}

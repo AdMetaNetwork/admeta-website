@@ -3,3 +3,54 @@
 @tailwind components;
 
 @tailwind utilities;
+
+body {
+  background-color: #18191d;
+}
+
+.linear-btn {
+  background: linear-gradient(250.5deg, #6dc1dc 18.1%, #a690fc 35.14%, #fc96bb 65.36%, #ffc397 97.34%), #3772ff;
+  border-radius: 37px;
+  letter-spacing: -0.02em;
+  color: #262121;
+  font-weight: 700;
+  padding: 4px 12px;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.s-bg {
+  position: absolute;
+  width: 1040px;
+  height: 650px;
+  right: 0;
+  top: -40px;
+  background: url(../../public/assets/images/bg.png) no-repeat center;
+  background-size: 100% 100%;
+  z-index: 0;
+}
+
+.advantage-item {
+  background: linear-gradient(180deg, rgba(38, 38, 44, 0) 0%, #26262c 100%);
+  border-radius: 24px;
+  padding: 40px;
+}
+
+.item-icon {
+  width: 4.75rem;
+  height: 4.75rem;
+  background: url(../../public/assets/images/advantage-Item-4.png) no-repeat center;
+  background-size: 100% 100%;
+}
+
+.key-word {
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.125rem;
+  letter-spacing: -0.02em;
+  background: linear-gradient(248.02deg, #6dc1dc 15.5%, #a690fc 33.05%, #fc96bb 64.15%, #ffc397 97.08%), #fcfcfd;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}

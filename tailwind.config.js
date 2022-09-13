@@ -14,11 +14,18 @@ module.exports = {
       '4xl': '2.25rem',
       '5xl': '3rem',
       '6xl': '4rem',
+      '7xl': '3.5rem',
+      '25': '2.5rem',
     },
     extend: {
+      spacing: {
+        nav: '5.5rem',
+        'body-p': '10rem',
+        'gap-w': '3.75rem'
+      },
       colors: {
         logo: {
-          cyan: '#0CCCCC',
+          cyan: '#fec400',
           blue: '#32587E',
         },
         primary: {
@@ -58,11 +65,20 @@ module.exports = {
           700: '#4a5568',
           800: '#2d3748',
           900: '#1a202c',
+          1000: '#777E91',
+          1100: '#E6E7F0'
+        },
+        black: {
+          100: '#18191d'
+        },
+        blue: {
+          100: '#3772FF'
         },
       },
       lineHeight: {
         hero: '4.5rem',
       },
+      borderRadius: {}
     },
   },
   variants: {},
