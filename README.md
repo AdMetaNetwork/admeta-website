@@ -1,3 +1,10 @@
+# Introduction
+
+This is the admeta website source code
+
+
+# How to install
+
 * Requirements:
 ```
 Node 14+
@@ -28,3 +35,5 @@ To build with optimization:
 ```
 npm run build-prod
 ```
+# Licence
+GPLv3
