@@ -45,7 +45,7 @@ const Footer: FC<Prop> = ({ handleGoLink }) => {
           </div>
           <div
             className="ml-4 mr-4 cursor-pointer"
-            onClick={() => handleGoLink('https://web.telegram.org/k/#@admetanetwork')}
+            onClick={() => handleGoLink('https://t.me/admetanetwork')}
           >
             <TelegramSvg />
           </div>
