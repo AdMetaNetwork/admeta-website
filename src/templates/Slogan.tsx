@@ -7,12 +7,10 @@ type Prop = {
 const Slogan: FC<Prop> = ({ handleGoLink }) => {
   return (
     <div className="relative bg-black-100 pl-body-p pr-body-p box-border" style={{ paddingTop: '6.5rem', paddingBottom: '10rem' }}>
-      <div className="text-base font-bold text-gray-1000 mb-3">ADMETA ADS</div>
-      <div className="relative z-10 text-7xl text-gray-1100 font-base" style={{ lineHeight: '4.125rem' }}>A privacy-preserving <br /> advertising Platform tailored for</div>
-      <div className="flex items-center justify-left">
-        <div className="linear-btn">Web3</div>
-        <div className="ml-5 mr-5 text-gray-1100" style={{ fontSize: '3.5rem' }}>&</div>
-        <div className="linear-btn">Metaverse</div>
+      <div className="text-base font-bold text-gray-1000 mb-3">ADMETA NETWORK</div>
+      <div className="relative z-10 text-7xl text-gray-1100 font-bold" style={{ lineHeight: '4.125rem' }}>a privacy-preserving <br /> advertising platform for</div>
+      <div className="flex items-center justify-left" style={{ lineHeight: '4.125rem' }}>
+        <div className="linear-btn">Web3 & Metaverse</div>
       </div>
       <div className="text-gray-1100 mt-5 mb-20">Customized ads service without compromising user privacy</div>
       <div 
