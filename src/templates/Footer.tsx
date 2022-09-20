@@ -10,8 +10,11 @@ type Prop = {
 
 const Footer: FC<Prop> = ({ handleGoLink }) => {
   return (
-    <div className="pl-body-p pr-body-p">
-      <div className="flex items-center justify-between" style={{ borderTop: '1px solid #2B2931', height: '5.5rem' }}>
+    <div className="sm:pl-body-p sm:pr-body-p sm:pl-8 sm:pr-8">
+      <div
+        className="flex items-center justify-between flex-col h-32 pt-5 pb-5 sm:flex-row sm:h-gap-w-4"
+        style={{ borderTop: '1px solid #2B2931' }}
+      >
         <div className="font-medium" style={{ fontSize: '0.813rem', color: '#A7A4AF' }}>© Copyright 2022 AdMeta.</div>
         <div className="flex items-center justify-start">
           <div
@@ -51,7 +54,7 @@ const Footer: FC<Prop> = ({ handleGoLink }) => {
           </div>
           <div
             className="cursor-pointer"
-            onClick={() => handleGoLink('https://www.youtube.com/')}
+            onClick={() => handleGoLink('https://www.youtube.com/channel/UCWzB-7tKPKWtmT0mBYO_tGA')}
           >
             <YoutobeSvg />
           </div>

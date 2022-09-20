@@ -21,7 +21,10 @@ module.exports = {
       spacing: {
         nav: '5.5rem',
         'body-p': '10rem',
-        'gap-w': '3.75rem'
+        'gap-w': '3.75rem',
+        'gap-w-2': '4.72rem',
+        'gap-w-3': '3.125rem',
+        'gap-w-4': '5.5rem'
       },
       colors: {
         logo: {
@@ -77,6 +80,7 @@ module.exports = {
       },
       lineHeight: {
         hero: '4.5rem',
+        't-line-h': '4.125rem'
       },
       borderRadius: {}
     },
