@@ -6,61 +6,41 @@
 
 body {
   background-color: #18191d;
+  overflow: hidden auto;
 }
 
-.linear-btn {
-  background: linear-gradient(250.5deg, #6dc1dc 18.1%, #a690fc 35.14%, #fc96bb 65.36%, #ffc397 97.34%), #3772ff;
-  border-radius: 37px;
-  letter-spacing: -0.02em;
-  color: #262121;
+.gradient-font {
   font-weight: 700;
-  padding: 4px 12px;
-  font-size: 20px;
-  position: relative;
-  z-index: 100;
-}
-
-.s-bg {
-  position: absolute;
-  width: 1040px;
-  height: 650px;
-  right: 0;
-  top: -80px;
-  background: url(../../public/assets/images/bg.png) no-repeat center;
-  background-size: 100% 100%;
-  z-index: 0;
-}
-
-.advantage-item {
-  background: linear-gradient(180deg, rgba(38, 38, 44, 0) 0%, #26262c 100%);
-  border-radius: 24px;
-  padding: 40px;
-}
-
-.item-icon {
-  width: 4.75rem;
-  height: 4.75rem;
-  background: url(../../public/assets/images/advantage-Item-4.png) no-repeat center;
-  background-size: 100% 100%;
-}
-
-.key-word {
-  font-weight: 600;
-  font-size: 1.125rem;
-  line-height: 1.125rem;
-  letter-spacing: -0.02em;
-  background: linear-gradient(248.02deg, #6dc1dc 15.5%, #a690fc 33.05%, #fc96bb 64.15%, #ffc397 97.08%), #fcfcfd;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+  text-transform: uppercase;
+  background: linear-gradient(329.73deg, #DE9DAD 20.97%, #F1E3C0 122.77%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
+  text-shadow: 0px 16px 42px rgba(0, 0, 0, 0.32);
 }
 
-@media (min-width: 640px) {
-  .linear-btn {
-    font-size: 40px;
-  }
-  .s-bg {
-    top: -40px;
-  }
+.s-items-before {
+  display: flex;
+  align-items: center;
+}
+.s-items-before::before {
+  content: '';
+  width: 1px;
+  height: 20px;
+  background: #EBCCBA;
+  margin-right: 6px;
+}
+.liner-bg {
+  background: linear-gradient(180deg, #1E1D2B 0%, #14141E 100%);
+}
+
+.banner-bg {
+  width: 75rem;
+  height: 16.3rem;
+  background: url(../../public/assets/images/banner.png) no-repeat center;
+  background-size: 100% 100%;
 }
