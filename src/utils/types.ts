@@ -4,6 +4,6 @@ interface TDK {
   description?: string
 }
 
-export {
-  type TDK
+export type {
+  TDK
 }
