@@ -13,7 +13,7 @@ const Youtobe: FC = () => {
         setHover(false)
       }}
       onClick={() => {
-        window.open('https://www.youtube.com/channel/UCWzB-7tKPKWtmT0mBYO_tGA', '_blank')
+        window.open('https://youtube.com/@admeta_network', '_blank')
       }}
     >
       <svg
