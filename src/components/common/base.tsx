@@ -20,7 +20,6 @@ const Base: FC<Props> = ({tdk, children}) => {
         <link rel="icon" href="/favicon.ico"/>
       </Head>
       <main>
-        // Google tag (gtag.js)
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-Y3RC1K10EW"
           strategy="afterInteractive"
