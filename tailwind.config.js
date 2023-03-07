@@ -4,6 +4,12 @@ module.exports = {
   darkMode: false,
   theme: {
     extend: {
+      right: {
+        'c100': '30rem'
+      },
+      screens: {
+        '3xl': '2000px'
+      },
       spacing: {
         'space-100': '7.5rem',
         'space-110': '2.75rem',
@@ -14,7 +20,8 @@ module.exports = {
         'space-160': '20rem',
         'space-170': '16.625rem',
         'space-180': '3.125rem',
-        'space-190': '5.563rem'
+        'space-190': '5.563rem',
+        'space-200': '20rem'
       },
       colors: {
         white: {
@@ -47,6 +54,9 @@ module.exports = {
         'font-size-120': '2.5rem',
         'font-size-130': '0.813rem',
       },
+      inset: {
+        'c100': '20rem'
+      }
     },
   },
   variants: {},

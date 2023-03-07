@@ -9,6 +9,56 @@ body {
   overflow: hidden auto;
 }
 
+@font-face {
+  font-family: PLight;
+  src: url(../../public/assets/fonts/Poppins-Light.ttf);
+}
+
+/* light 300*/
+.text-p-light {
+  font-family: PLight, serif;
+}
+
+@font-face {
+  font-family: PMedium;
+  src: url(../../public/assets/fonts/Poppins-Medium.ttf);
+}
+
+/* medium 500*/
+.text-p-medium {
+  font-family: PMedium, serif;
+}
+
+@font-face {
+  font-family: PRegular;
+  src: url(../../public/assets/fonts/Poppins-Regular.ttf);
+}
+
+/* normal 400*/
+.text-p-regular {
+  font-family: PRegular, serif;
+}
+
+@font-face {
+  font-family: PBold;
+  src: url(../../public/assets/fonts/Poppins-Bold.ttf);
+}
+
+/* bold 700*/
+.text-p-bold {
+  font-family: PBold, serif;
+}
+
+@font-face {
+  font-family: PSemiBold;
+  src: url(../../public/assets/fonts/Poppins-SemiBold.ttf);
+}
+
+/* semi bold 600*/
+.text-p-semi-bold {
+  font-family: PSemiBold, serif;
+}
+
 .gradient-font {
   font-weight: 700;
   font-size: 16px;
