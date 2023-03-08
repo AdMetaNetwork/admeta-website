@@ -7,11 +7,12 @@
     "start": "next start",
     "build-stats": "cross-env ANALYZE=true npm run build",
     "export": "next export",
-    "build-prod": "run-s clean build",
+    "build-prod": "run-s clean in build",
     "clean": "rimraf .next out",
     "lint": "next lint",
     "build-types": "tsc --noEmit --pretty",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "in": "npm install"
   },
   "dependencies": {
     "classnames": "^2.3.1",
