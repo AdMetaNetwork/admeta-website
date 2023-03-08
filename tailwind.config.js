@@ -8,7 +8,7 @@ module.exports = {
         'c100': '30rem'
       },
       screens: {
-        '3xl': '2000px'
+        '3xl': '1800px'
       },
       spacing: {
         'space-100': '7.5rem',

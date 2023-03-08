@@ -8,7 +8,7 @@ const Index: FC = () => {
     <div className='relative w-full px-space-100 3xl:px-space-200 box-border py-40 liner-bg overflow-hidden'>
       <Privacy/>
       <ProtectIcon/>
-      <ComputerIcon />
+      <ComputerIcon/>
     </div>
   )
 }
