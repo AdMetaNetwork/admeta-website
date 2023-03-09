@@ -14,9 +14,9 @@ const Slogan: FC = () => {
         completely<br/> designed and customized for Web3 and Metaverse.
       </div>
       <Btn
-        label={'Start Now'}
+        label={'Early Access'}
         handleClick={() => {
-          window.open('https://app.admeta.network/', '_blank')
+          window.open('https://app.testnet.admeta.network', '_blank')
         }}
       />
     </div>

@@ -30,9 +30,9 @@ const Main: FC = () => {
         <div
           className='text-white-c000 text-p-semi-bold text-lg'
           onClick={() => {
-            window.open('https://app.admeta.network/', '_blank')
+            window.open('https://app.testnet.admeta.network', '_blank')
           }}
-        >Start Now</div>
+        >Early Access</div>
       </div>
     </div>
   )
