@@ -8,16 +8,29 @@ import Privacy from "../components/privacy";
 import Banner from "../components/banner";
 import Footer from "../components/common/footer";
 
+import { isMobile } from 'react-device-detect';
+
+import Mobile from "../components/mobile";
+
 const Home: NextPage = () => {
+
   return (
     <Base>
-      <Header/>
-      <Slogan/>
-      <Support/>
-      <Earn/>
-      <Privacy/>
-      <Banner />
-      <Footer />
+      {
+        isMobile
+          ?
+          <Mobile/>
+          :
+          <>
+            <Header/>
+            <Slogan/>
+            <Support/>
+            <Earn/>
+            <Privacy/>
+            <Banner/>
+            <Footer/>
+          </>
+      }
     </Base>
   )
 }
