@@ -5,7 +5,8 @@ module.exports = {
   theme: {
     extend: {
       right: {
-        'c100': '30rem'
+        'c100': '45rem',
+        'c110': '38rem'
       },
       screens: {
         '3xl': '1800px'

@@ -7,7 +7,7 @@ import protectImg from '../../../public/assets/images/circle-bg.png'
 const ProtectIcon: FC = () => {
   return (
     <div
-      className='absolute right-12 3xl:right-1/4'
+      className='absolute dashboard-bg'
       style={{width: '50rem', height: '50rem', top: '10.75rem'}}
       id='circle-bg'
     >

@@ -118,4 +118,23 @@ body {
   }
 }
 
+.dashboard-bg {
+  left: 38.75rem;
+}
+
+@media (min-width: 1800px) {
+  .dashboard-bg {
+    left: 58.75rem;
+  }
+}
+
+.computer-icon-bg {
+  left: 38.75rem;
+}
+
+@media (min-width: 1800px) {
+  .computer-icon-bg {
+    left: 58.75rem;
+  }
+}
 

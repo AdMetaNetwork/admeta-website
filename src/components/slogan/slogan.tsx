@@ -4,7 +4,7 @@ import Btn from "../ui/btn";
 const Slogan: FC = () => {
 
   return (
-    <div className='w-full px-space-100 3xl:px-space-200 box-border'>
+    <div className='w-full px-space-100 3xl:px-space-200 box-border relative z-50'>
       <div className='flex-col flex items-start mb-6'>
         <div className='text-font-size-100 text-white-c000 text-p-bold tracking-wide leading-none'>The Web3</div>
         <div className='text-font-size-100 text-white-c000 text-p-bold tracking-wide leading-none'>Advertising</div>
