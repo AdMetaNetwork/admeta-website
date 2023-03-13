@@ -35,7 +35,7 @@ const MobileNav: FC<Props> = ({closeNav}) => {
           onClick={() => {
             window.open('https://github.com/AdMetaNetwork', '_blank')
           }}
-        >Github
+        >GitHub
         </div>
       </div>
       <div className='w-full absolute left-0 right-0' style={{
