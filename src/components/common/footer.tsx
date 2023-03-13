@@ -70,14 +70,14 @@ const Footer: FC = () => {
           <div
             className='text-white-c100 text-base text-p-semi-bold underline cursor-pointer my-3  hover:text-white-c000'
             onClick={() => {
-
+              window.open('https://docs.admeta.network/', '_blank')
             }}
           >Docs
           </div>
           <div
             className='text-white-c100 text-base text-p-semi-bold underline cursor-pointer hover:text-white-c000'
             onClick={() => {
-
+              window.open('https://github.com/AdMetaNetwork', '_blank')
             }}
           >GitHub
           </div>
