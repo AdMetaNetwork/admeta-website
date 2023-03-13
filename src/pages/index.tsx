@@ -30,7 +30,7 @@ const Home: NextPage = () => {
           const timer = setTimeout(() => {
             setShowTip(false)
             clearTimeout(timer)
-          }, 1000)
+          }, 3000)
         }}
       />
       <Support/>
@@ -42,7 +42,7 @@ const Home: NextPage = () => {
           const timer = setTimeout(() => {
             setShowTip(false)
             clearTimeout(timer)
-          }, 1000)
+          }, 3000)
         }}
       />
       <Footer/>
@@ -62,7 +62,7 @@ const Home: NextPage = () => {
         showTip
         &&
           <Modal
-              label={'Please open the page on your PC'}
+              label={'Please switch to a desktop browser to experience our Testnet.'}
           />
       }
 

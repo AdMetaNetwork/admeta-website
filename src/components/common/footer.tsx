@@ -79,7 +79,7 @@ const Footer: FC = () => {
             onClick={() => {
 
             }}
-          >Github
+          >GitHub
           </div>
         </div>
         <div className='mb-6'>
