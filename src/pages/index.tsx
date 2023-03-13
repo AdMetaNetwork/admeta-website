@@ -7,30 +7,65 @@ import Header from "../components/common/header";
 import Privacy from "../components/privacy";
 import Banner from "../components/banner";
 import Footer from "../components/common/footer";
-
-import { isMobile } from 'react-device-detect';
-
-import Mobile from "../components/mobile";
+import MobileNav from '../components/ui/mobile-nav'
+import Modal from "../components/ui/modal";
+import { useState } from "react";
 
 const Home: NextPage = () => {
 
+  const [showNav, setShowNav] = useState(false)
+  const [showTip, setShowTip] = useState(false)
+
   return (
     <Base>
+      <Header openNav={() => {
+        let bodyStyle = document.body.style
+        bodyStyle.height = '100vh'
+        bodyStyle.overflowY = 'hidden'
+        setShowNav(true);
+      }}/>
+      <Slogan
+        openTip={() => {
+          setShowTip(true)
+          const timer = setTimeout(() => {
+            setShowTip(false)
+            clearTimeout(timer)
+          }, 1000)
+        }}
+      />
+      <Support/>
+      <Earn/>
+      <Privacy/>
+      <Banner
+        openTip={() => {
+          setShowTip(true)
+          const timer = setTimeout(() => {
+            setShowTip(false)
+            clearTimeout(timer)
+          }, 1000)
+        }}
+      />
+      <Footer/>
       {
-        isMobile
-          ?
-          <Mobile/>
-          :
-          <>
-            <Header/>
-            <Slogan/>
-            <Support/>
-            <Earn/>
-            <Privacy/>
-            <Banner/>
-            <Footer/>
-          </>
+        showNav
+        &&
+          <MobileNav
+              closeNav={() => {
+                let bodyStyle = document.body.style
+                bodyStyle.height = '100%'
+                bodyStyle.overflowY = 'auto'
+                setShowNav(false)
+              }}
+          />
       }
+      {
+        showTip
+        &&
+          <Modal
+              label={'Please open the page on your PC'}
+          />
+      }
+
     </Base>
   )
 }

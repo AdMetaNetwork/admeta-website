@@ -97,6 +97,11 @@ body {
   background-size: 100% 100%;
 }
 
+.banner-bg2 {
+  background: url(../../public/assets/images/banner2.png) no-repeat center;
+  background-size: 100% 100%;
+}
+
 .box {
   width: 200px;
   height: 200px;
@@ -138,3 +143,14 @@ body {
   }
 }
 
+@media (max-width: 640px) {
+  body {
+    background: url(../../public/assets/images/mobile-bg.png) no-repeat center;
+    background-size: 100% 100%;
+  }
+}
+
+.mobile-slogan-bg {
+  background: url(../../public/assets/images/main-bg2.png) no-repeat center;
+  background-size: 100% 100%;
+}
