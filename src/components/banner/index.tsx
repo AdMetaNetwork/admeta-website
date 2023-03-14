@@ -1,5 +1,6 @@
 import { FC } from 'react'
 import Main from './main'
+import { motion, AnimatePresence } from "framer-motion";
 
 interface Props {
   openTip: () => void
@@ -12,7 +13,16 @@ const Index: FC<Props> = ({openTip}) => {
         className='hidden sm:flex relative w-full px-space-100 box-border bg-black-c300 flex items-center justify-center'
         style={{height: '31.25rem'}}
       >
-        <Main/>
+        <AnimatePresence>
+          <motion.div
+            transition={{ ease: "linear", duration: 2, repeat: Infinity, damping: 20 }}
+            animate={{
+              y: [0, 5, 0, -5, 0]
+            }}
+          >
+            <Main/>
+          </motion.div>
+        </AnimatePresence>
       </div>
       <div className='block sm:hidden px-4 box-border mb-10'>
         <div className='w-full p-8 box-border banner-bg2'>

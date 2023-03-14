@@ -1,5 +1,7 @@
 import { FC } from 'react'
 import Logo3 from "../svg/logo3";
+import Close from '../svg/close'
+
 import MobileShow from '../../../public/assets/images/mobile-show.png'
 
 interface Props {
@@ -50,7 +52,9 @@ const MobileNav: FC<Props> = ({closeNav}) => {
           right: 20
         }}
         onClick={closeNav}
-      >X</div>
+      >
+        <Close />
+      </div>
     </div>
   )
 }

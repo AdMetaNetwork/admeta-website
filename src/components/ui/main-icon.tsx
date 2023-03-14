@@ -1,17 +1,22 @@
 import { FC } from 'react'
-import Image from "next/image"
+import { useLottie } from "lottie-react"
 
-import MainBg from '../../../public/assets/images/main-bg.png'
+import mainBgLottie from '../../../public/assets/lottie/main-bg.json'
 
 const MainIcon: FC = () => {
+
+  const options = {
+    animationData: mainBgLottie,
+    loop: true
+  };
+
+  const { View } = useLottie(options);
+
   return (
-    <div className='absolute scale-100 3xl:scale-150'
-         style={{width: '72rem', height: '72rem', right: '-8.9rem', top: '-5.25rem'}}
+    <div className='absolute scale-100 3xl:scale-200'
+         style={{width: '90rem', height: '90rem', right: '-8.9rem', top: '-5.25rem'}}
     >
-      <Image
-        src={MainBg.src}
-        layout={'fill'}
-      />
+      {View}
     </div>
   )
 }

@@ -14,7 +14,7 @@ const Header: FC<Props> = ({openNav}) => {
   return (
     <>
       <div
-        className='hidden h-space-190 w-full px-space-100 3xl:px-space-200 box-border sm:flex justify-between items-center relative z-50 bg-black-c600 mb-24'>
+        className='hidden h-space-190 w-full px-space-100 3xl:px-space-200 box-border sm:flex justify-between items-center relative z-50 bg-black-c800 mb-24'>
         <Logo2/>
         <div className='flex justify-center items-center'>
           <div

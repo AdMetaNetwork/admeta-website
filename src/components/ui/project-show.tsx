@@ -1,9 +1,30 @@
-import { FC } from 'react'
-import Image from 'next/image'
+import { FC, useEffect } from 'react'
+import { useLottie } from "lottie-react";
+import * as U from '../../utils'
 
-import projectImg from '../../../public/assets/images/project-show.png'
+import projectLottie from '../../../public/assets/lottie/project-show.json'
+
 
 const ProjectShow: FC = () => {
+
+  const options = {
+    animationData: projectLottie,
+    loop: false,
+    autoplay: false
+  };
+
+  const { View, play } = useLottie(options);
+
+  useEffect(() => {
+    const dom = document.getElementById("surf-earn")
+
+    window.onscroll = () => {
+      if (dom && U.H.isContain((dom))) {
+        play()
+      }
+    }
+  }, [])
+
   return (
     <div
       className='absolute dashboard-bg'
@@ -13,10 +34,7 @@ const ProjectShow: FC = () => {
         top: '10rem'
       }}
     >
-      <Image
-        src={projectImg.src}
-        layout={'fill'}
-      />
+      {View}
     </div>
   )
 }
