@@ -133,6 +133,16 @@ body {
   }
 }
 
+.dashboard-bg2 {
+  left: 51.75rem;
+}
+
+@media (min-width: 1800px) {
+  .dashboard-bg2 {
+    left: 58.75rem;
+  }
+}
+
 .computer-icon-bg {
   left: 38.75rem;
 }

@@ -18,16 +18,17 @@ const ProjectShow: FC = () => {
   useEffect(() => {
     const dom = document.getElementById("surf-earn")
 
-    window.onscroll = () => {
+    window.addEventListener('scroll', () => {
       if (dom && U.H.isContain((dom))) {
         play()
+        window.removeEventListener('scroll', () => {})
       }
-    }
+    })
   }, [])
 
   return (
     <div
-      className='absolute dashboard-bg'
+      className='absolute dashboard-bg2 z-10'
       style={{
         width: '74.6rem',
         height: '59.4rem',
