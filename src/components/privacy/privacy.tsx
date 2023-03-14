@@ -35,7 +35,7 @@ const Privacy: FC = () => {
             delay: 0.2
           }}
         >
-          <div className='flex flex-col items-start w-space-160 mb-12'>
+          <div className='flex flex-col items-start w-space-160 mb-12' id={'use-consent'}>
             <PrivacySvg2/>
             <div className='my-2 text-white-c100 text-lg text-p-semi-bold s-items-before'>Data collection with user consent
             </div>

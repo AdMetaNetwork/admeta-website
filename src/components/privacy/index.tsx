@@ -5,6 +5,7 @@ import Card from "../ui/card";
 import PrivacySvg1 from "../svg/privacy-svg-1";
 import PrivacySvg2 from "../svg/privacy-svg-2";
 import PrivacySvg3 from "../svg/privacy-svg-3";
+import CircleBg from "../ui/circle-bg";
 
 const Index: FC = () => {
   return (
@@ -12,6 +13,7 @@ const Index: FC = () => {
       <div className='hidden sm:block relative w-full px-space-100 3xl:px-space-200 box-border py-40 liner-bg overflow-hidden'>
         <Privacy/>
         <ComputerIcon/>
+        <CircleBg/>
       </div>
       <div className='block sm:hidden px-4 box-border mb-20'>
         <div
