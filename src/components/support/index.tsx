@@ -26,8 +26,8 @@ const Index: FC = () => {
         </AnimatePresence>
       </div>
       <div className='block sm:hidden px-4 box-border mb-20'>
-        <div className='text-2xl text-white-c000 text-p-medium mb-2' id="introduce-m">Seamless transition to Web3 advertising</div>
-        <div className='text-gray-c100 text-xs text-p-light mb-10'>AdMeta offers a range of products designed to enable
+        <div className='text-2xl text-white-c000 text-p-medium mb-2 text-center' id="introduce-m">Seamless transition to Web3 advertising</div>
+        <div className='text-gray-c100 text-xs text-p-light mb-10 text-center'>AdMeta offers a range of products designed to enable
           users to take control of their personal data, eliminate annoying tracking and privacy issues, and even
           monetize their data.
         </div>

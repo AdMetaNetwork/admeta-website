@@ -134,7 +134,7 @@ body {
 }
 
 .dashboard-bg2 {
-  left: 51.75rem;
+  left: 40rem;
 }
 
 @media (min-width: 1800px) {
@@ -157,6 +157,18 @@ body {
   body {
     background: url(../../public/assets/images/mobile-bg.png) no-repeat center;
     background-size: 100% 100%;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1440px) {
+  .dashboard-bg2 {
+    left: 31.75rem
+  }
+  .dashboard-bg {
+    left: 31.75rem
+  }
+  .computer-icon-bg {
+    left: 31.75rem;
   }
 }
 

@@ -15,6 +15,7 @@ const Home: NextPage = () => {
 
   const [showNav, setShowNav] = useState(false)
   const [showTip, setShowTip] = useState(false)
+  const [tip, setTip] = useState('')
 
   return (
     <Base>
@@ -25,7 +26,8 @@ const Home: NextPage = () => {
         setShowNav(true);
       }}/>
       <Slogan
-        openTip={() => {
+        openTip={(v: string = '') => {
+          setTip(v)
           setShowTip(true)
           const timer = setTimeout(() => {
             setShowTip(false)
@@ -38,6 +40,7 @@ const Home: NextPage = () => {
       <Privacy/>
       <Banner
         openTip={() => {
+          setTip('Please switch to a desktop browser to experience our Testnet.')
           setShowTip(true)
           const timer = setTimeout(() => {
             setShowTip(false)
@@ -62,7 +65,7 @@ const Home: NextPage = () => {
         showTip
         &&
           <Modal
-              label={'Please switch to a desktop browser to experience our Testnet.'}
+              label={tip}
           />
       }
 
