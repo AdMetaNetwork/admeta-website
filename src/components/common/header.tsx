@@ -38,7 +38,7 @@ const Header: FC<Props> = ({openNav}) => {
         <Btn
           label='Early Access'
           handleClick={() => {
-            window.open('https://app.testnet.admeta.network', '_blank')
+            window.open('https://app.admeta.network', '_blank')
           }}
         />
       </div>
